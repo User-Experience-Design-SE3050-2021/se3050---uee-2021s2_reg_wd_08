@@ -1,0 +1,338 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="165dp">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="8dp">
+
+
+            <ImageView
+                android:id="@+id/feature1"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                app:srcCompat="@drawable/roundadrectangle" />
+
+            <TextView
+                android:id="@+id/txtfeature1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Categories"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="40dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:orientation="horizontal">
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            tools:layout_editor_absoluteX="129dp"
+                            tools:layout_editor_absoluteY="165dp">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="260dp"
+
+                                android:layout_height="260dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="#F6F7F8"
+                                android:paddingRight="10dp"
+                                app:cardCornerRadius="10dp"
+                                app:cardPreventCornerOverlap="true"
+                                app:cardUseCompatPadding="true"
+
+
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+
+                                    <ImageView
+                                        android:id="@+id/imageView5"
+                                        android:layout_width="150dp"
+                                        android:layout_height="107dp"
+                                        android:layout_gravity="center"
+                                        app:srcCompat="@drawable/mari" />
+
+                                    <TextView
+                                        android:id="@+id/textView7"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="tikiri mari Biscuits"
+                                        android:textAlignment="center"
+                                        android:textColor="#111111"
+
+                                        android:textSize="25dp" />
+
+                                    <TextView
+                                        android:id="@+id/txtweight21"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="100g"
+                                        android:textAlignment="center"
+                                        android:textColor="#585656"
+
+                                        android:textSize="25dp" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginTop="10dp"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/weight1"
+                                            android:layout_width="102dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:text="Rs 70.00"
+                                            android:textAlignment="textStart"
+                                            android:textColor="#585656"
+                                            android:textSize="25dp" />
+
+                                        <TextView
+                                            android:id="@+id/price1"
+
+                                            android:layout_width="118dp"
+                                            android:layout_height="wrap_content"
+                                            android:text="Rs 120.00"
+                                            android:background="@drawable/strike_through"
+                                            android:layout_marginLeft="19dp"
+                                            android:textColor="#585656"
+                                            android:textSize="25dp" />
+
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        tools:layout_editor_absoluteX="129dp"
+                        tools:layout_editor_absoluteY="165dp">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="260dp"
+
+                            android:layout_height="260dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:background="#F6F7F8"
+                            android:paddingRight="10dp"
+                            app:cardCornerRadius="10dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+
+                                <ImageView
+                                    android:id="@+id/imageView22"
+                                    android:layout_width="150dp"
+                                    android:layout_height="107dp"
+                                    android:layout_gravity="center"
+                                    app:srcCompat="@drawable/mari" />
+
+                                <TextView
+                                    android:id="@+id/textView22"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="tikiri mari Biscuits"
+                                    android:textAlignment="center"
+                                    android:textColor="#111111"
+
+                                    android:textSize="25dp" />
+
+                                <TextView
+                                    android:id="@+id/txtweight22"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="100g"
+                                    android:textAlignment="center"
+                                    android:textColor="#585656"
+
+                                    android:textSize="25dp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="10dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/weight22"
+                                        android:layout_width="102dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:text="Rs 70.00"
+                                        android:textAlignment="textStart"
+                                        android:textColor="#585656"
+                                        android:textSize="25dp" />
+
+                                    <TextView
+                                        android:id="@+id/price22"
+
+                                        android:layout_width="118dp"
+                                        android:layout_height="wrap_content"
+                                        android:text="Rs 120.00"
+                                        android:background="@drawable/strike_through"
+                                        android:layout_marginLeft="19dp"
+                                        android:textColor="#585656"
+                                        android:textSize="25dp" />
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        tools:layout_editor_absoluteX="129dp"
+                        tools:layout_editor_absoluteY="165dp">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="260dp"
+
+                            android:layout_height="260dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:background="#F6F7F8"
+                            android:paddingRight="10dp"
+                            app:cardCornerRadius="10dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+
+                                <ImageView
+                                    android:id="@+id/imageView23"
+                                    android:layout_width="150dp"
+                                    android:layout_height="107dp"
+                                    android:layout_gravity="center"
+                                    app:srcCompat="@drawable/mari" />
+
+                                <TextView
+                                    android:id="@+id/textView23"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="tikiri mari Biscuits"
+                                    android:textAlignment="center"
+                                    android:textColor="#111111"
+
+                                    android:textSize="25dp" />
+
+                                <TextView
+                                    android:id="@+id/txtweight23"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="100g"
+                                    android:textAlignment="center"
+                                    android:textColor="#585656"
+
+                                    android:textSize="25dp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="10dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/weight23"
+                                        android:layout_width="102dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:text="Rs 70.00"
+                                        android:textAlignment="textStart"
+                                        android:textColor="#585656"
+                                        android:textSize="25dp" />
+
+                                    <TextView
+                                        android:id="@+id/price23"
+
+                                        android:layout_width="118dp"
+                                        android:layout_height="wrap_content"
+                                        android:text="Rs 120.00"
+                                        android:background="@drawable/strike_through"
+                                        android:layout_marginLeft="19dp"
+                                        android:textColor="#585656"
+                                        android:textSize="25dp" />
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </FrameLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

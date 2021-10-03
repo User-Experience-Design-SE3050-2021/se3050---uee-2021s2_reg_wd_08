@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorControlActivated"
+    android:backgroundTint="#FFC107"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E7D9EA"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-232dp">
+
+
+        <FrameLayout
+            android:layout_width="401dp"
+            android:layout_height="253dp">
+
+            <ImageView
+                android:layout_width="421dp"
+                android:layout_height="200dp"
+                android:background="@drawable/rectangle" />
+
+
+            <ImageView
+                android:layout_width="438dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="110dp"
+                android:background="@drawable/colouredcircle" />
+
+            <ImageView
+                android:layout_width="275dp"
+                android:layout_height="218dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/simplecircle" />
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="293dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:text="Strawberry"
+                android:textColor="#0A0A0A"
+                android:textSize="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="0dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/ic_baseline_star_rate_24" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_baseline_star_rate_24" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_baseline_star_rate_24" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_baseline_star_rate_24" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_baseline_star_half_24" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="279dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="(140)"
+                    android:textColor="#0A0A0A"
+                    android:textSize="30dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="196dp"
+                    android:layout_height="50dp">
+
+                    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                        android:id="@+id/number_btn"
+                        android:layout_width="280dp"
+                        android:layout_height="51dp"
+
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="60dp"
+                        android:elevation="60dp"
+                        app:finalNumber="10"
+                        app:initialNumber="1"
+                        app:textSize="12dp" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Rs 1500.00"
+                    android:textColor="#0A0A0A"
+                    android:textSize="30dp" />
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="396dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text=" The juicy edible usually red fruit of any of several low-growing temperate herbs (genus Fragaria) of the rose family."
+                android:textColor="#0A0A0A"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonborder"
+            android:text="Buy Now"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button2"
+            android:layout_width="401dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/addtocartbtn"
+            android:text="Add to cart"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
