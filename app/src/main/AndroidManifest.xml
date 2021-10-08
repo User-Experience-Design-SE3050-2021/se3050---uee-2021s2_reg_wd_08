@@ -20,6 +20,11 @@
         <activity
             android:name=".m_cartlist_Activity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".m_paymentoption"
@@ -27,11 +32,6 @@
         <activity
             android:name=".mpayment_form"
             android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
         </activity>
         <activity android:name=".ProductActivity" />
         <activity android:name=".CategoryActivity2" />

@@ -9,11 +9,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class mpayment_form extends AppCompatActivity {
     Button pay_btn, done_btn;
     Dialog dialog;
+    TextView pTotal;
     EditText edit_person,edit_numb, edit_month, edit_yr, edit_cvc;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,16 +24,24 @@ public class mpayment_form extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
+        //get total from previous activity
+        String amount = getIntent().getStringExtra("Total");
+
+
         pay_btn = findViewById(R.id.payment_button);
         done_btn = findViewById(R.id.btn_Done);
 
+        pTotal = findViewById(R.id.text_pTotal);
         edit_person=findViewById(R.id.edit_person);
         edit_numb=findViewById(R.id.edit_cardnumb);
         edit_month=findViewById(R.id.edit_month);
         edit_yr=findViewById(R.id.edit_year);
         edit_cvc=findViewById(R.id.edit_cvc);
 
+
         dialog= new Dialog(this);
+
+        pTotal.setText(amount);
 
         pay_btn.setOnClickListener(new View.OnClickListener() {
             @Override
