@@ -177,7 +177,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:fontFamily="@font/poppins_semibold"
-                            android:text="2"
+                            android:text="1"
                             android:textColor="@color/black"
                             android:textSize="17dp" />
 
@@ -231,11 +231,11 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/imageView18"
+                        android:id="@+id/imageView20"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_margin="10dp"
-                        android:background="@drawable/m_cabbage"
+                        android:background="@drawable/m_nestomault"
                         android:padding="10dp" />
 
                     <LinearLayout
@@ -250,7 +250,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="6dp"
                             android:fontFamily="@font/poppins_semibold"
-                            android:text="Cabbage, 250g"
+                            android:text="Nestomalt, 750g"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -258,8 +258,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/poppins"
-
-                            android:text="Agro Chemical free cabbage"
+                            android:text="golden goodness of malted barley"
                             android:textSize="11dp" />
 
                         <TextView
@@ -267,7 +266,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/poppins_semibold"
-                            android:text="RS 65.00"
+                            android:text="RS 795.00"
                             android:textColor="#F44336" />
 
                         <TextView
@@ -300,7 +299,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:fontFamily="@font/poppins_semibold"
-                            android:text="2"
+                            android:text="3"
                             android:textColor="@color/black"
                             android:textSize="17dp" />
 
@@ -354,11 +353,11 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/imageView18"
+                        android:id="@+id/imageView21"
                         android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_height="70dp"
                         android:layout_margin="10dp"
-                        android:background="@drawable/m_cabbage"
+                        android:background="@drawable/m_soap_image"
                         android:padding="10dp" />
 
                     <LinearLayout
@@ -373,7 +372,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="6dp"
                             android:fontFamily="@font/poppins_semibold"
-                            android:text="Cabbage, 250g"
+                            android:text="Lifebuoy, 110g"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -382,7 +381,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/poppins"
 
-                            android:text="Agro Chemical free cabbage"
+                            android:text="Germ protection bathig soap bar"
                             android:textSize="11dp" />
 
                         <TextView
@@ -481,7 +480,7 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_margin="10dp"
-                        android:background="@drawable/m_cabbage"
+                        android:background="@drawable/m_kottume_image"
                         android:padding="10dp" />
 
                     <LinearLayout
@@ -496,7 +495,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="6dp"
                             android:fontFamily="@font/poppins_semibold"
-                            android:text="Cabbage, 250g"
+                            android:text="Prima Noodles, 73g"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -505,7 +504,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/poppins"
 
-                            android:text="Agro Chemical free cabbage"
+                            android:text="Instant Noodles"
                             android:textSize="11dp" />
 
                         <TextView
@@ -513,7 +512,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/poppins_semibold"
-                            android:text="RS 65.00"
+                            android:text="RS 55.00"
                             android:textColor="#F44336" />
 
                         <TextView
@@ -546,7 +545,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:fontFamily="@font/poppins_semibold"
-                            android:text="2"
+                            android:text="3"
                             android:textColor="@color/black"
                             android:textSize="17dp" />
 
