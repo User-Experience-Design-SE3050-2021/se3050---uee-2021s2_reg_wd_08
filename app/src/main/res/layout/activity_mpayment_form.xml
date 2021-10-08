@@ -9,7 +9,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="70dp"
         android:background="@drawable/m_header">
 
         <ImageView
@@ -27,16 +27,16 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="186dp"
-            android:layout_height="38dp"
+            android:layout_width="185dp"
+            android:layout_height="37dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="134dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="81dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="114dp"
+            android:layout_marginBottom="2dp"
             android:fontFamily="@font/poppins_semibold"
             android:text="Payment Details"
             android:textColor="#FFFFFF"
@@ -88,10 +88,10 @@
 
                         <TextView
                             android:id="@+id/textView10"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginEnd="20dp"
                             android:layout_marginVertical="10dp"
-                            android:layout_weight="1"
                             android:fontFamily="@font/poppins_semibold"
                             android:text="RS 5134.00"
                             android:textAlignment="center"
@@ -211,13 +211,13 @@
                     android:text="Cardholder Name" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName"
+                    android:id="@+id/edit_person"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:fontFamily="@font/poppins_medium"
                     android:inputType="textPersonName"
-                    android:text="Yasiru Wickramasinghe"
+                    android:hint="Yasiru Wickramasinghe"
                     android:drawablePadding="3dp"
                     android:drawableStart="@drawable/m_user_icon"
                     android:textColor="#373737" />
@@ -238,13 +238,14 @@
                     android:text="Card Number" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonN"
+                    android:id="@+id/edit_cardnumb"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
+                    android:maxLength="16"
                     android:fontFamily="@font/poppins_medium"
                     android:inputType="number"
-                    android:text="12342542345646"
+                    android:hint="12342542345646"
                     android:drawableStart="@drawable/m_cardvumb_icon"
                     android:drawablePadding="3dp"
                     android:textColor="#373737" />
@@ -272,10 +273,12 @@
                         android:text="Expiry Month" />
 
                     <EditText
-                        android:id="@+id/editTextDate3"
+                        android:id="@+id/edit_month"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:ems="10"
+                        android:hint="01"
+                        android:maxLength="2"
                         android:drawableStart="@drawable/m_date_icon"
                         android:drawablePadding="3dp"
                         android:inputType="date" />
@@ -296,10 +299,12 @@
                         android:text="Expiry Year" />
 
                     <EditText
-                        android:id="@+id/editxtDate3"
+                        android:id="@+id/edit_year"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
+                        android:maxLength="2"
+                        android:hint="21"
                         android:drawableStart="@drawable/m_date_icon"
                         android:drawablePadding="3dp"
 
@@ -309,7 +314,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="50dp"
+                    android:layout_marginLeft="40dp"
                     android:layout_gravity="end"
                     android:orientation="vertical">
 
@@ -320,10 +325,12 @@
                         android:text="CVC" />
 
                     <EditText
-                        android:id="@+id/editTextDa3"
-                        android:layout_width="90dp"
+                        android:id="@+id/edit_cvc"
+                        android:layout_width="100dp"
                         android:layout_height="wrap_content"
                         android:ems="10"
+                        android:maxLength="3"
+                        android:hint="123"
                         android:drawableStart="@drawable/m_lock_icon"
                         android:inputType="date" />
                 </LinearLayout>

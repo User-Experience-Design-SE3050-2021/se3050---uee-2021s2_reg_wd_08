@@ -10,7 +10,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="70dp"
         android:background="@drawable/m_header">
 
         <ImageView
@@ -28,14 +28,14 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="213dp"
-            android:layout_height="35dp"
+            android:layout_width="221dp"
+            android:layout_height="37dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="106dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="13dp"
             android:layout_marginEnd="83dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/poppins_semibold"
