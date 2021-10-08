@@ -176,21 +176,41 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
                             android:layout_weight="1"
-                            android:fontFamily="@font/poppins"
+                            android:fontFamily="@font/poppins_medium"
                             android:text="#######"
                             android:textColor="#FFFFFF"
                             android:textSize="10dp" />
 
                         <TextView
-                            android:id="@+id/textViw15"
+                            android:id="@+id/text_month"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:fontFamily="@font/poppins"
-                            android:text="##/##"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="##"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/textViw19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="/"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="10dp" />
+
+                        <TextView
+                            android:id="@+id/text_year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="##"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="10dp"
+                            android:layout_marginEnd="46dp"/>
                     </LinearLayout>
 
                 </LinearLayout>
@@ -217,7 +237,7 @@
                     android:ems="10"
                     android:fontFamily="@font/poppins_medium"
                     android:inputType="textPersonName"
-                    android:hint="Yasiru Wickramasinghe"
+                    android:hint="Card holder"
                     android:drawablePadding="3dp"
                     android:drawableStart="@drawable/m_user_icon"
                     android:textColor="#373737" />
@@ -242,10 +262,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:maxLength="16"
+                    android:maxLength="19"
                     android:fontFamily="@font/poppins_medium"
                     android:inputType="number"
-                    android:hint="12342542345646"
+                    android:hint="1234 2542 3456 4546"
+                    android:lineSpacingMultiplier="4"
                     android:drawableStart="@drawable/m_cardvumb_icon"
                     android:drawablePadding="3dp"
                     android:textColor="#373737" />
@@ -346,7 +367,9 @@
                 android:background="@drawable/m_button"
                 android:elevation="10dp"
                 android:shadowColor="#FF7A7A"
-                android:text="Checkkout"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Checkout"
                 android:textColor="@color/white" />
 
         </LinearLayout>

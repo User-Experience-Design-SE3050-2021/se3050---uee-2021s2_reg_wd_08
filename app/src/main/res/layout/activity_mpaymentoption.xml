@@ -271,7 +271,9 @@
                 android:background="@drawable/m_button"
                 android:elevation="10dp"
                 android:shadowColor="#FF7A7A"
-                android:text="Checkkout"
+                android:text="Checkout"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppins_semibold"
                 android:textColor="@color/white" />
         </LinearLayout>
     </ScrollView>

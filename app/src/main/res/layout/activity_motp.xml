@@ -181,6 +181,8 @@
                 app:inner_text_background="@drawable/m_button"
                 app:inner_text_bottom_padding="6dp"
                 app:inner_text_color="@color/white"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppins_semibold"
                 app:inner_text_size="16sp"
                 app:inner_text_top_padding="6dp" />
 
