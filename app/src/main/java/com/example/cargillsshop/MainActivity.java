@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         goimageView=findViewById(R.id.go);
 
 
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(myintent);
             }
         });
+
 
     }
 }
