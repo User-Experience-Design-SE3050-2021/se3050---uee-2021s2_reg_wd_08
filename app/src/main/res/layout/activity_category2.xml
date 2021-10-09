@@ -291,7 +291,7 @@
             <LinearLayout
                 android:layout_width="77dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="10dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -299,7 +299,7 @@
                     android:layout_height="34dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    app:srcCompat="@drawable/ic_baseline_home_24" />
+                    app:srcCompat="@drawable/ic_baseline_homewhite_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -308,6 +308,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="0dp"
                     android:text="Home"
+                    android:textColor="@color/white"
                     android:textAlignment="center"
                     android:textSize="20dp" />
 
@@ -350,7 +351,7 @@
                     android:layout_height="34dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    app:srcCompat="@drawable/ic_baseline_view_comfy_24" />
+                    app:srcCompat="@drawable/ic_baseline_appsblack_24" />
 
                 <TextView
                     android:layout_width="100dp"
@@ -359,8 +360,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="0dp"
                     android:text="Category"
+
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="20dp" />
 
             </LinearLayout>

@@ -5,16 +5,32 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class CategoryActivity2 extends AppCompatActivity {
+
+TextView search;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category2);
+
+        search=findViewById(R.id.Search_box);
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myintent = new Intent(CategoryActivity2.this, SearchProductActivity.class);
+                startActivity(myintent);
+            }
+        });
+
     }
+
 
 
 

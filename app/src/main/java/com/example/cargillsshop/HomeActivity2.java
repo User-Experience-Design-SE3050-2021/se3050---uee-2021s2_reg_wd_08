@@ -2,7 +2,11 @@ package com.example.cargillsshop;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.ImageView;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.models.SlideModel;
@@ -12,11 +16,13 @@ import java.util.List;
 
 public class HomeActivity2 extends AppCompatActivity {
 
+
+    EditText search;
+    ImageView veg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home2);
-
         ImageSlider imageSlider=findViewById(R.id.slide);
         List<SlideModel> slideModels=new ArrayList<>();
         slideModels.add(new SlideModel("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4iEqiKRaT-l577YZJCvCPf_LIfe_nucEQplRc2UbzG2hgfZJ5HOPLKQrRCZEcP5aPu_w&usqp=CAU"," "));
@@ -25,5 +31,22 @@ public class HomeActivity2 extends AppCompatActivity {
         slideModels.add(new SlideModel("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS9t24cD6xvI4nh2pJ_tI3RZPJEV5itqDSjw&usqp=CAU"," "));
         imageSlider.setImageList(slideModels,true);
 
+        veg=findViewById(R.id.vegcategory);
+        veg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myintent = new Intent(HomeActivity2.this, CategoryActivity2.class);
+                startActivity(myintent);
+            }
+        });
+
+        search=findViewById(R.id.Search_box);
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myintent = new Intent(HomeActivity2.this, SearchProductActivity.class);
+                startActivity(myintent);
+            }
+        });
     }
 }

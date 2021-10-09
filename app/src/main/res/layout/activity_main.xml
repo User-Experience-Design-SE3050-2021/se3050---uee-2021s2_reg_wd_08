@@ -29,7 +29,7 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/go"
             android:layout_width="89dp"
             android:layout_height="88dp"
             android:background="@drawable/simplecircle"

@@ -13,18 +13,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cargillsshop"
         tools:replace="android:theme">
-        <activity android:name=".ProductActivity">  <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
-        <activity android:name=".CategoryActivity2"/>
+        <activity android:name=".SearchProductActivity"/>
 
 
+        <activity android:name=".ProductActivity"/>
+
+
+        <activity android:name=".CategoryActivity2" />
         <activity android:name=".cartActivity" />
         <activity android:name=".HomeActivity2" />
         <activity android:name=".CategorycardView" />
-        <activity android:name=".MainActivity" />
+    <activity android:name=".MainActivity" >
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
     </application>
 
 </manifest>

@@ -207,7 +207,7 @@
 
 
                                     <ImageView
-                                        android:id="@+id/imageView5"
+                                        android:id="@+id/vegcategory"
                                         android:layout_width="146dp"
                                         android:layout_height="94dp"
                                         android:layout_gravity="center"
@@ -1146,13 +1146,13 @@
             <LinearLayout
                 android:layout_width="77dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="10dp"
                 android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="34dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginLeft="5dp"
                     android:layout_marginTop="10dp"
                     app:srcCompat="@drawable/ic_baseline_home_24" />
 
@@ -1205,7 +1205,7 @@
                     android:layout_height="34dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    app:srcCompat="@drawable/ic_baseline_view_comfy_24" />
+                    app:srcCompat="@drawable/ic_baseline_appswhite_24" />
 
                 <TextView
                     android:layout_width="100dp"

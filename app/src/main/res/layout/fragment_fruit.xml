@@ -34,12 +34,13 @@
                     android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/realstrawberry"
                         android:layout_width="match_parent"
 
                         android:layout_height="270dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
-                        android:background="#F6F7F8"
+      android:background="#F6F7F8"
                         android:paddingRight="10dp"
                         app:cardCornerRadius="20dp"
                         app:cardPreventCornerOverlap="true"
@@ -68,7 +69,8 @@
                                 android:layout_height="94dp">
 
                                 <ImageView
-                                    android:id="@+id/fruit2"
+                                    android:id="@+id/strawberry2"
+
                                     android:layout_width="146dp"
                                     android:layout_height="94dp"
                                     android:layout_gravity="center"
