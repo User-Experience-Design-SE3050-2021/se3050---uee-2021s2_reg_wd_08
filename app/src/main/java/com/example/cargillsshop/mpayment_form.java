@@ -14,11 +14,17 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
 public class mpayment_form extends AppCompatActivity {
     Button pay_btn, done_btn;
     Dialog dialog;
     TextView pTotal,txt_number,txt_name,txt_month, txt_yr;
     EditText edit_person,edit_numb, edit_month, edit_yr, edit_cvc;
+    m_Data_Access_Class dac = new m_Data_Access_Class();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -239,10 +245,36 @@ public class mpayment_form extends AppCompatActivity {
         btn_yes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                dialog.dismiss();
+                String name = edit_person.getText().toString();
+                String numb = edit_numb.getText().toString();
+                String month = edit_month.getText().toString();
+                String year = edit_yr.getText().toString();
+                String cvc = edit_cvc.getText().toString();
+                float total = Float.valueOf(pTotal.getText().toString()).floatValue();
+                String date = getCurrentDate() +","+ getCurrentTime();
+
+                m_CreditCard_Class card = new m_CreditCard_Class(name,total, numb,name,month,year,cvc,date);
+
+                dac.add(card).addOnSuccessListener(suc->{
+                    Toast.makeText(mpayment_form.this, "Your card is saved", Toast.LENGTH_SHORT).show();
+                }).addOnFailureListener(er->{
+                    Toast.makeText(mpayment_form.this, "Fail to record"+er.getMessage(), Toast.LENGTH_SHORT).show();
+                });
 
             }
         });
 
+    }
+
+
+
+
+    private String getCurrentTime(){
+        return new SimpleDateFormat("hh:mm a", Locale.getDefault()).format(new Date());
+    }
+    private String getCurrentDate(){
+        return new SimpleDateFormat("dd LLL, yyyy", Locale.getDefault()).format(new Date());
     }
 
 }
