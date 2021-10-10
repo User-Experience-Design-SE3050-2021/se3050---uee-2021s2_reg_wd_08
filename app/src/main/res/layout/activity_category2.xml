@@ -278,7 +278,7 @@
             android:id="@+id/fragdefault"
             android:name="com.example.cargillsshop.VegFragment"
             android:layout_width="match_parent"
-            android:layout_height="268dp"
+            android:layout_height="316dp"
             android:layout_marginTop="0dp" />
 
         <LinearLayout

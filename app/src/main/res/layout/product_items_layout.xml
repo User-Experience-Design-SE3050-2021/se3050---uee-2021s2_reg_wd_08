@@ -98,7 +98,7 @@
                                     android:layout_width="91dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="0dp"
-                                    android:text="100g"
+                                    android:text="1KG"
                                     android:textAlignment="center"
                                     android:textColor="#635959"
                                     android:textSize="25dp" />

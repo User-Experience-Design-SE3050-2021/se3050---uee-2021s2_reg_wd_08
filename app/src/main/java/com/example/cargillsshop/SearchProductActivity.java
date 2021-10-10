@@ -36,6 +36,8 @@ public class SearchProductActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_product);
 
+        getSupportActionBar().hide();
+
         inputtext = findViewById(R.id.search_product_name);
         Searchbtn = (Button) findViewById(R.id.search_btn);
         searchlist = findViewById(R.id.search_list);
@@ -60,7 +62,7 @@ public class SearchProductActivity extends AppCompatActivity {
         DatabaseReference reference= FirebaseDatabase.getInstance().getReference().child("SearchProducts");
         FirebaseRecyclerOptions<Products> options=
                 new FirebaseRecyclerOptions.Builder<Products>()
-                        .setQuery(reference.orderByChild("pname").startAt(searchinput).endAt(searchinput+'\uF7FF'),Products.class)
+                        .setQuery(reference.orderByChild("pname").equalTo(searchinput),Products.class)
                         .build();
 
         FirebaseRecyclerAdapter<Products, ProductViewHolder> adapter=

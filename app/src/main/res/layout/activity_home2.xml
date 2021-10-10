@@ -128,8 +128,8 @@
         </LinearLayout>
 
         <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="380dp"
+            android:layout_width="398dp"
+            android:layout_height="423dp"
             android:layout_centerHorizontal="true">
 
 
@@ -147,9 +147,9 @@
                     app:auto_cycle="true"
                     app:corner_radius="5"
                     app:delay="0"
-                    app:error_image="@drawable/ic_baseline_search_24"
+                    app:error_image="@drawable/background"
                     app:period="1000"
-                    app:placeholder="@drawable/ic_baseline_search_24">
+                    app:placeholder="@drawable/background">
 
                 </com.denzcoskun.imageslider.ImageSlider>
 
@@ -306,6 +306,7 @@
 
                                 </LinearLayout>
                             </androidx.cardview.widget.CardView>
+
                             <androidx.cardview.widget.CardView
                                 android:layout_width="174dp"
 
@@ -349,7 +350,6 @@
                     </HorizontalScrollView>
 
                 </FrameLayout>
-
 
 
                 <FrameLayout
@@ -400,9 +400,9 @@
                                     android:layout_gravity="center"
                                     android:layout_marginTop="10dp"
                                     android:background="#F6F7F8"
+                                    android:paddingRight="10dp"
                                     app:cardCornerRadius="10dp"
                                     app:cardPreventCornerOverlap="true"
-                                    android:paddingRight="10dp"
                                     app:cardUseCompatPadding="true"
 
 
@@ -461,8 +461,6 @@
 
                                     </LinearLayout>
                                 </androidx.cardview.widget.CardView>
-
-
 
 
                             </LinearLayout>
@@ -563,9 +561,9 @@
                                     android:layout_gravity="center"
                                     android:layout_marginTop="10dp"
                                     android:background="#F6F7F8"
+                                    android:paddingRight="10dp"
                                     app:cardCornerRadius="10dp"
                                     app:cardPreventCornerOverlap="true"
-                                    android:paddingRight="10dp"
                                     app:cardUseCompatPadding="true"
 
 
@@ -626,8 +624,6 @@
                                 </androidx.cardview.widget.CardView>
 
 
-
-
                             </LinearLayout>
 
 
@@ -646,9 +642,9 @@
                                     android:layout_gravity="center"
                                     android:layout_marginTop="10dp"
                                     android:background="#F6F7F8"
+                                    android:paddingRight="10dp"
                                     app:cardCornerRadius="10dp"
                                     app:cardPreventCornerOverlap="true"
-                                    android:paddingRight="10dp"
                                     app:cardUseCompatPadding="true"
 
 
@@ -709,8 +705,6 @@
                                 </androidx.cardview.widget.CardView>
 
 
-
-
                             </LinearLayout>
 
 
@@ -751,8 +745,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="300dp"
                             android:orientation="horizontal">
-
-
 
 
                             <LinearLayout
@@ -832,9 +824,9 @@
 
                                                 android:layout_width="118dp"
                                                 android:layout_height="wrap_content"
-                                                android:text="Rs 120.00"
-                                                android:background="@drawable/strike_through"
                                                 android:layout_marginLeft="19dp"
+                                                android:background="@drawable/strike_through"
+                                                android:text="Rs 120.00"
                                                 android:textColor="#585656"
                                                 android:textSize="25dp" />
 
@@ -924,9 +916,9 @@
 
                                                 android:layout_width="118dp"
                                                 android:layout_height="wrap_content"
-                                                android:text="Rs 400.00"
-                                                android:background="@drawable/strike_through"
                                                 android:layout_marginLeft="19dp"
+                                                android:background="@drawable/strike_through"
+                                                android:text="Rs 400.00"
                                                 android:textColor="#585656"
                                                 android:textSize="25dp" />
 
@@ -1016,9 +1008,9 @@
 
                                                 android:layout_width="118dp"
                                                 android:layout_height="wrap_content"
-                                                android:text="Rs 430.00"
-                                                android:background="@drawable/strike_through"
                                                 android:layout_marginLeft="19dp"
+                                                android:background="@drawable/strike_through"
+                                                android:text="Rs 430.00"
                                                 android:textColor="#585656"
                                                 android:textSize="25dp" />
 
@@ -1108,9 +1100,9 @@
 
                                                 android:layout_width="118dp"
                                                 android:layout_height="wrap_content"
-                                                android:text="Rs 250.00"
-                                                android:background="@drawable/strike_through"
                                                 android:layout_marginLeft="19dp"
+                                                android:background="@drawable/strike_through"
+                                                android:text="Rs 250.00"
                                                 android:textColor="#585656"
                                                 android:textSize="25dp" />
 
@@ -1122,7 +1114,6 @@
 
 
                             </LinearLayout>
-
 
 
                         </LinearLayout>

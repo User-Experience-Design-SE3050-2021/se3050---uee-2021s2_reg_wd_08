@@ -100,7 +100,7 @@
                                     android:layout_width="91dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="0dp"
-                                    android:text="100g"
+                                    android:text="1KG"
                                     android:textAlignment="center"
                                     android:textColor="#635959"
                                     android:textSize="25dp" />
@@ -170,7 +170,7 @@
                                 android:id="@+id/strawberry3"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Strawberry"
+                                android:text="Grapes"
                                 android:textAlignment="center"
                                 android:textColor="#090909"
                                 android:textSize="25dp" />
@@ -184,7 +184,7 @@
                                     android:layout_width="146dp"
                                     android:layout_height="94dp"
                                     android:layout_gravity="center"
-                                    app:srcCompat="@drawable/strawberry" />
+                                    app:srcCompat="@drawable/grapes" />
 
                                 <ImageView
                                     android:id="@+id/heart1"
@@ -210,7 +210,7 @@
                                     android:layout_width="91dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="0dp"
-                                    android:text="100g"
+                                    android:text="1KG"
                                     android:textAlignment="center"
                                     android:textColor="#635959"
                                     android:textSize="25dp" />
@@ -247,7 +247,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="0dp"
-                                android:text="Rs 1500.00"
+                                android:text="Rs 1590.00"
                                 android:textAlignment="center"
                                 android:textColor="#F84545"
                                 android:textSize="25dp" />
@@ -295,7 +295,7 @@
                                 android:id="@+id/strawberry50"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Strawberry"
+                                android:text="Apple-Red"
                                 android:textAlignment="center"
                                 android:textColor="#090909"
                                 android:textSize="25dp" />
@@ -309,7 +309,7 @@
                                     android:layout_width="146dp"
                                     android:layout_height="94dp"
                                     android:layout_gravity="center"
-                                    app:srcCompat="@drawable/strawberry" />
+                                    app:srcCompat="@drawable/apple" />
 
                                 <ImageView
                                     android:id="@+id/heart3"
@@ -335,7 +335,7 @@
                                     android:layout_width="91dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="0dp"
-                                    android:text="100g"
+                                    android:text="1KG"
                                     android:textAlignment="center"
                                     android:textColor="#635959"
                                     android:textSize="25dp" />
@@ -372,7 +372,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="0dp"
-                                android:text="Rs 1500.00"
+                                android:text="Rs 720.00"
                                 android:textAlignment="center"
                                 android:textColor="#F84545"
                                 android:textSize="25dp" />
@@ -405,7 +405,7 @@
                                 android:id="@+id/strawberry5"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Strawberry"
+                                android:text="Orange"
                                 android:textAlignment="center"
                                 android:textColor="#090909"
                                 android:textSize="25dp" />
@@ -419,7 +419,7 @@
                                     android:layout_width="146dp"
                                     android:layout_height="94dp"
                                     android:layout_gravity="center"
-                                    app:srcCompat="@drawable/strawberry" />
+                                    app:srcCompat="@drawable/orange" />
 
                                 <ImageView
                                     android:id="@+id/heart7"
@@ -445,7 +445,7 @@
                                     android:layout_width="91dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="0dp"
-                                    android:text="100g"
+                                    android:text="1KG"
                                     android:textAlignment="center"
                                     android:textColor="#635959"
                                     android:textSize="25dp" />
@@ -482,7 +482,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="0dp"
-                                android:text="Rs 1500.00"
+                                android:text="Rs 760.00"
                                 android:textAlignment="center"
                                 android:textColor="#F84545"
                                 android:textSize="25dp" />
@@ -530,7 +530,7 @@
                                 android:id="@+id/strawberry8"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Strawberry"
+                                android:text="Banana"
                                 android:textAlignment="center"
                                 android:textColor="#090909"
                                 android:textSize="25dp" />
@@ -544,7 +544,7 @@
                                     android:layout_width="146dp"
                                     android:layout_height="94dp"
                                     android:layout_gravity="center"
-                                    app:srcCompat="@drawable/strawberry" />
+                                    app:srcCompat="@drawable/banana" />
 
                                 <ImageView
                                     android:id="@+id/heart8"
@@ -570,7 +570,7 @@
                                     android:layout_width="91dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="0dp"
-                                    android:text="100g"
+                                    android:text="1KG"
                                     android:textAlignment="center"
                                     android:textColor="#635959"
                                     android:textSize="25dp" />
@@ -607,7 +607,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="0dp"
-                                android:text="Rs 1500.00"
+                                android:text="Rs 360.00"
                                 android:textAlignment="center"
                                 android:textColor="#F84545"
                                 android:textSize="25dp" />
@@ -640,7 +640,7 @@
                                 android:id="@+id/strawberry9"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Strawberry"
+                                android:text="Avocado"
                                 android:textAlignment="center"
                                 android:textColor="#090909"
                                 android:textSize="25dp" />
@@ -654,7 +654,7 @@
                                     android:layout_width="146dp"
                                     android:layout_height="94dp"
                                     android:layout_gravity="center"
-                                    app:srcCompat="@drawable/strawberry" />
+                                    app:srcCompat="@drawable/ava" />
 
                                 <ImageView
                                     android:id="@+id/heart9"
@@ -680,7 +680,7 @@
                                     android:layout_width="91dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="0dp"
-                                    android:text="100g"
+                                    android:text="1KG"
                                     android:textAlignment="center"
                                     android:textColor="#635959"
                                     android:textSize="25dp" />
@@ -717,7 +717,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="0dp"
-                                android:text="Rs 1500.00"
+                                android:text="Rs 180.00"
                                 android:textAlignment="center"
                                 android:textColor="#F84545"
                                 android:textSize="25dp" />

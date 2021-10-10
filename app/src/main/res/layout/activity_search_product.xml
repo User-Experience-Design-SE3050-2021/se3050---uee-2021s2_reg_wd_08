@@ -10,7 +10,7 @@
     <RelativeLayout
         android:id="@+id/r5"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="152dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="@color/colorPrimaryDark">
@@ -18,11 +18,12 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="150dp"
+            android:background="#E7D9EA"
             android:orientation="vertical"
             tools:layout_editor_absoluteX="124dp"
-            tools:layout_editor_absoluteY="101dp"
-            android:background="#E7D9EA">>
+            tools:layout_editor_absoluteY="101dp">>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
@@ -86,7 +87,9 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
                             android:background="@color/white"
+                            android:drawable="@drawable/ic_baseline_search_24"
                             android:drawableLeft="@drawable/ic_baseline_search_24"
+
                             android:drawablePadding="10dp"
 
                             android:textColor="#B3A2A2"
@@ -107,14 +110,72 @@
             </LinearLayout>
         </LinearLayout>
 
+
     </RelativeLayout>
 
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/search_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="514dp"
         android:layout_below="@id/r5"
-        android:background="#E7D9EA"/>
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginBottom="-12dp"
+        android:background="#E7D9EA" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="10dp"
+        android:background="#E7D9EA"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="182dp"
+                android:layout_height="55dp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginRight="0dp"
+                android:background="@color/white">
+
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/ic_baseline_filter_alt_24" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Filter"
+                    android:textSize="28dp" />
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
 
 </RelativeLayout>

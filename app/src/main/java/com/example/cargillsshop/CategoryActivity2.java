@@ -19,7 +19,7 @@ TextView search;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category2);
-
+        getSupportActionBar().hide();
         search=findViewById(R.id.Search_box);
         search.setOnClickListener(new View.OnClickListener() {
             @Override
