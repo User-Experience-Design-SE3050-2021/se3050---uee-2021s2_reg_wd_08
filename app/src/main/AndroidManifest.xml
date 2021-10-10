@@ -17,6 +17,9 @@
         <activity android:name=".ChooseAddress" />
         <activity android:name=".SearchProductActivity" />
         <activity android:name=".ProductActivity" />
+        <activity android:name=".AddAddress"></activity>
+        <activity android:name=".UpdateAddress"></activity>
+        <activity android:name=".MyOrders"/>
         <activity
             android:name=".m_OTP_Activity"
             android:exported="true" />
