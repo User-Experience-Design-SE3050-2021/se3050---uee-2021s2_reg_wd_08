@@ -61,64 +61,66 @@ public class LoginTabFragment extends Fragment {
         forgotpwd.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(500).start();
         login.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(700).start();
 
-//        mAuthListener = new FirebaseAuth.AuthStateListener() {
-//            @Override
-//            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-//
-//                FirebaseUser mFirebaseUser = mAuth.getCurrentUser();
-//
-//                if(mFirebaseUser != null){
-//                    Toast.makeText(getActivity(),"You are logged in",Toast.LENGTH_LONG).show();
-////                    Intent i = new Intent(getActivity(),PaymentActivity.class);
-////                    startActivity(i);
-//                }
-//                else{
-//                    Toast.makeText(getActivity(),"Please Login",Toast.LENGTH_LONG).show();
-//
-//                }
-//            }
-//        };
+        mAuthListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+
+                FirebaseUser mFirebaseUser = mAuth.getCurrentUser();
+
+                if(mFirebaseUser != null){
+                    Toast.makeText(getActivity(),"You are logged in",Toast.LENGTH_LONG).show();
+//                    Intent i = new Intent(getActivity(),PaymentActivity.class);
+//                    startActivity(i);
+                }
+                else{
+                    Toast.makeText(getActivity(),"Please Login",Toast.LENGTH_LONG).show();
+
+                }
+            }
+        };
 
 
-//        login.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                rootNode = FirebaseDatabase.getInstance();
-//                reference = rootNode.getReference("Users");
-//
-//                String mail = email.getText().toString();
-//                String pwd = password.getText().toString();
-//
-//                if(mail.isEmpty()){
-//                    email.setError("Please enter the email id");
-//                    email.requestFocus();
-//                }
-//                else if(pwd.isEmpty()){
-//                    password.setError("Please enter the password ");
-//                    password.requestFocus();
-//                }else if(!(mail.isEmpty() && pwd.isEmpty())) {
-//
-//                    mAuth.signInWithEmailAndPassword(mail,pwd).addOnCompleteListener(getActivity(), new OnCompleteListener<AuthResult>() {
-//                        @Override
-//                        public void onComplete(@NonNull Task<AuthResult> task) {
-//                            if(!task.isSuccessful()){
-//                                Toast.makeText(getActivity(), "Login Error, Please Login again", Toast.LENGTH_LONG).show();
-//                            } else{
-////                                Intent i = new Intent(getActivity(),.class);
-////                                startActivity(i);
-//                                Toast.makeText(getActivity(), "Login success", Toast.LENGTH_LONG).show();
-//
-//                            }
-//                        }
-//
-//                    });
-//
-//                } else {
-//                    Toast.makeText(getActivity(), "Error occurred", Toast.LENGTH_LONG).show();
-//
-//                }
-//            }
-//        });
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                rootNode = FirebaseDatabase.getInstance();
+                reference = rootNode.getReference("Users");
+
+                String mail = email.getText().toString();
+                String pwd = password.getText().toString();
+
+                if(mail.isEmpty()){
+                    email.setError("Please enter the email id");
+                    email.requestFocus();
+                }
+                else if(pwd.isEmpty()){
+                    password.setError("Please enter the password ");
+                    password.requestFocus();
+                }else if(!(mail.isEmpty() && pwd.isEmpty())) {
+
+                    mAuth.signInWithEmailAndPassword(mail,pwd).addOnCompleteListener(getActivity(), new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if(!task.isSuccessful()){
+                                Toast.makeText(getActivity(), "Login Error, Please Login again", Toast.LENGTH_LONG).show();
+                            } else{
+                                Intent i = new Intent(getActivity(),UserProfileActivity.class);
+                                startActivity(i);
+                                Toast.makeText(getActivity(), "Login success", Toast.LENGTH_LONG).show();
+
+                            }
+                        }
+
+                    });
+
+                } else {
+                    Toast.makeText(getActivity(), "Error occurred", Toast.LENGTH_LONG).show();
+
+                }
+            }
+        });
+
+
 
 
         return root;
