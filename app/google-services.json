@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "591461534008",
+    "firebase_url": "https://uee-cargils-app-default-rtdb.firebaseio.com",
+    "project_id": "uee-cargils-app",
+    "storage_bucket": "uee-cargils-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591461534008:android:11023380f38a9c999a19cd",
+        "android_client_info": {
+          "package_name": "com.example.cargillsshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591461534008-fnfb00393qs21vpqrdt6b4auclu7b20k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGIHuY1OMwKuRXR-XC_V2tyLGdLDeO470"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591461534008-fnfb00393qs21vpqrdt6b4auclu7b20k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591461534008:android:c6a754b11656f6b09a19cd",
+        "android_client_info": {
+          "package_name": "com.example.giftshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591461534008-fnfb00393qs21vpqrdt6b4auclu7b20k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGIHuY1OMwKuRXR-XC_V2tyLGdLDeO470"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591461534008-fnfb00393qs21vpqrdt6b4auclu7b20k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591461534008:android:d88ed3f10c98954c9a19cd",
+        "android_client_info": {
+          "package_name": "com.example.loginregister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591461534008-fnfb00393qs21vpqrdt6b4auclu7b20k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGIHuY1OMwKuRXR-XC_V2tyLGdLDeO470"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591461534008-fnfb00393qs21vpqrdt6b4auclu7b20k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591461534008:android:b9ad0a7324b9337a9a19cd",
+        "android_client_info": {
+          "package_name": "com.myapplication.cargils_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591461534008-fnfb00393qs21vpqrdt6b4auclu7b20k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGIHuY1OMwKuRXR-XC_V2tyLGdLDeO470"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591461534008-fnfb00393qs21vpqrdt6b4auclu7b20k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
